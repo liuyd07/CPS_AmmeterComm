@@ -26,6 +26,7 @@
 				<Item Name="cmdElements2Text.vi" Type="VI" URL="../cmdElements2Text.vi"/>
 				<Item Name="getCodeElementsFromApplicationXMLFile.vi" Type="VI" URL="../getCodeElementsFromApplicationXMLFile.vi"/>
 				<Item Name="HexTString.vi" Type="VI" URL="../HexTString.vi"/>
+				<Item Name="decodeDataIdentity.vi" Type="VI" URL="../decodeDataIdentity.vi"/>
 			</Item>
 			<Item Name="Encode" Type="Folder">
 				<Item Name="combineCommandFrame.vi" Type="VI" URL="../combineCommandFrame.vi"/>
