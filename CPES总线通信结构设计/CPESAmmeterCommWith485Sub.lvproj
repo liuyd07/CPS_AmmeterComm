@@ -9,6 +9,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -18,27 +19,30 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="CodeSettle" Type="Folder">
+			<Item Name="Decode" Type="Folder">
+				<Item Name="CmdCode2Elements.vi" Type="VI" URL="../CmdCode2Elements.vi"/>
+				<Item Name="cmdCode2Text.vi" Type="VI" URL="../cmdCode2Text.vi"/>
+				<Item Name="cmdElements2Text.vi" Type="VI" URL="../cmdElements2Text.vi"/>
+				<Item Name="getCodeElementsFromApplicationXMLFile.vi" Type="VI" URL="../getCodeElementsFromApplicationXMLFile.vi"/>
+				<Item Name="HexTString.vi" Type="VI" URL="../HexTString.vi"/>
+			</Item>
+			<Item Name="Encode" Type="Folder">
+				<Item Name="combineCommandFrame.vi" Type="VI" URL="../combineCommandFrame.vi"/>
+				<Item Name="generateCheckCode.vi" Type="VI" URL="../generateCheckCode.vi"/>
+				<Item Name="generateCommand.vi" Type="VI" URL="../generateCommand.vi"/>
+				<Item Name="String2Hex.vi" Type="VI" URL="../String2Hex.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Comm" Type="Folder">
-			<Item Name="Advanced Serial Write and Read.vi" Type="VI" URL="../../Program Files/National Instruments/LabVIEW 2010/examples/instr/smplserl.llb/Advanced Serial Write and Read.vi"/>
-			<Item Name="detectVarables.vi" Type="VI" URL="../detectVarables.vi"/>
+			<Item Name="detectAllVarables.vi" Type="VI" URL="../detectAllVarables.vi"/>
+			<Item Name="detectVarablesFromIP.vi" Type="VI" URL="../detectVarablesFromIP.vi"/>
 			<Item Name="getPortIP.vi" Type="VI" URL="../getPortIP.vi"/>
 			<Item Name="initCommandList.vi" Type="VI" URL="../initCommandList.vi"/>
 			<Item Name="initIP.vi" Type="VI" URL="../initIP.vi"/>
 			<Item Name="initPort.vi" Type="VI" URL="../initPort.vi"/>
 			<Item Name="requireDataFromPort.vi" Type="VI" URL="../requireDataFromPort.vi"/>
-		</Item>
-		<Item Name="CommandCodeSettle" Type="Folder">
-			<Item Name="combineCommandFrame.vi" Type="VI" URL="../combineCommandFrame.vi"/>
-			<Item Name="decode-33.vi" Type="VI" URL="../decode-33.vi"/>
-			<Item Name="decode-data-91.vi" Type="VI" URL="../decode-data-91.vi"/>
-			<Item Name="decode-data.vi" Type="VI" URL="../decode-data.vi"/>
-			<Item Name="decode-multiply33.vi" Type="VI" URL="../decode-multiply33.vi"/>
-			<Item Name="decode-readdata.vi" Type="VI" URL="../decode-readdata.vi"/>
-			<Item Name="decode.vi" Type="VI" URL="../decode.vi"/>
-			<Item Name="generateCheckCode.vi" Type="VI" URL="../generateCheckCode.vi"/>
-			<Item Name="generateCommand.vi" Type="VI" URL="../generateCommand.vi"/>
-			<Item Name="HexTString.vi" Type="VI" URL="../HexTString.vi"/>
-			<Item Name="String2Hex.vi" Type="VI" URL="../String2Hex.vi"/>
+			<Item Name="setIP.vi" Type="VI" URL="../setIP.vi"/>
 		</Item>
 		<Item Name="DataStorage" Type="Folder">
 			<Item Name="addFileCategory.vi" Type="VI" URL="../addFileCategory.vi"/>
@@ -50,8 +54,11 @@
 			<Item Name="VarableStruct.ctl" Type="VI" URL="../VarableStruct.ctl"/>
 		</Item>
 		<Item Name="GlobalCostants.vi" Type="VI" URL="../GlobalCostants.vi"/>
+		<Item Name="InitMainSize.vi" Type="VI" URL="../InitMainSize.vi"/>
+		<Item Name="transferData2UnitFormat.vi" Type="VI" URL="../transferData2UnitFormat.vi"/>
 		<Item Name="initVI.vi" Type="VI" URL="../initVI.vi"/>
-		<Item Name="meter-1.vi" Type="VI" URL="../meter-1.vi"/>
+		<Item Name="MainAmmeterComm.vi" Type="VI" URL="../MainAmmeterComm.vi"/>
+		<Item Name="saveDataToFile.vi" Type="VI" URL="../saveDataToFile.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -77,6 +84,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -90,6 +98,9 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
