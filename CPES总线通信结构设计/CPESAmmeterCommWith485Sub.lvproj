@@ -43,6 +43,8 @@
 			<Item Name="initPort.vi" Type="VI" URL="../initPort.vi"/>
 			<Item Name="requireDataFromPort.vi" Type="VI" URL="../requireDataFromPort.vi"/>
 			<Item Name="setIP.vi" Type="VI" URL="../setIP.vi"/>
+			<Item Name="InitSerialPort.vi" Type="VI" URL="../InitSerialPort.vi"/>
+			<Item Name="NewSerialSource.vi" Type="VI" URL="../NewSerialSource.vi"/>
 		</Item>
 		<Item Name="DataStorage" Type="Folder">
 			<Item Name="addFileCategory.vi" Type="VI" URL="../addFileCategory.vi"/>
@@ -52,6 +54,7 @@
 		<Item Name="TypeDefine" Type="Folder">
 			<Item Name="VarableID.ctl" Type="VI" URL="../VarableID.ctl"/>
 			<Item Name="VarableStruct.ctl" Type="VI" URL="../VarableStruct.ctl"/>
+			<Item Name="BaudRate.ctl" Type="VI" URL="../BaudRate.ctl"/>
 		</Item>
 		<Item Name="GlobalCostants.vi" Type="VI" URL="../GlobalCostants.vi"/>
 		<Item Name="InitMainSize.vi" Type="VI" URL="../InitMainSize.vi"/>
