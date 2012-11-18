@@ -56,6 +56,7 @@
 			<Item Name="VarableID.ctl" Type="VI" URL="../VarableID.ctl"/>
 			<Item Name="VarableStruct.ctl" Type="VI" URL="../VarableStruct.ctl"/>
 			<Item Name="BaudRate.ctl" Type="VI" URL="../BaudRate.ctl"/>
+			<Item Name="OutputDataFormat.ctl" Type="VI" URL="../OutputDataFormat.ctl"/>
 		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="image" Type="Folder"/>
