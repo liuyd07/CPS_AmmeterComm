@@ -28,6 +28,7 @@
 					<Item Name="getCodeElementsFromApplicationXMLFile.vi" Type="VI" URL="../getCodeElementsFromApplicationXMLFile.vi"/>
 					<Item Name="HexTString.vi" Type="VI" URL="../HexTString.vi"/>
 					<Item Name="decodeDataIdentity.vi" Type="VI" URL="../decodeDataIdentity.vi"/>
+					<Item Name="formatData.vi" Type="VI" URL="../formatData.vi"/>
 				</Item>
 				<Item Name="Encode" Type="Folder">
 					<Item Name="combineCommandFrame.vi" Type="VI" URL="../combineCommandFrame.vi"/>
@@ -63,6 +64,8 @@
 				<Item Name="image" Type="Folder">
 					<Item Name="icon.ico" Type="Document" URL="../icon.ico"/>
 				</Item>
+				<Item Name="ApplicationLayerCommand.xml" Type="Document" URL="../ApplicationLayerCommand.xml"/>
+				<Item Name="DataIdentity.xml" Type="Document" URL="../DataIdentity.xml"/>
 			</Item>
 			<Item Name="AmmeterGlobalCostants.vi" Type="VI" URL="../AmmeterGlobalCostants.vi"/>
 			<Item Name="InitMainSize.vi" Type="VI" URL="../InitMainSize.vi"/>
@@ -129,6 +132,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="DOMUserDefRef.rc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2010/resource/objmgr/DOMUserDefRef.rc"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="Application" Type="EXE">
