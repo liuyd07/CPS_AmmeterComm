@@ -20,23 +20,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AmmeterFolder" Type="Folder">
-			<Item Name="CodeSettle" Type="Folder">
-				<Item Name="Decode" Type="Folder">
-					<Item Name="CmdCode2Elements.vi" Type="VI" URL="../CmdCode2Elements.vi"/>
-					<Item Name="cmdCode2Text.vi" Type="VI" URL="../cmdCode2Text.vi"/>
-					<Item Name="cmdElements2Text.vi" Type="VI" URL="../cmdElements2Text.vi"/>
-					<Item Name="getCodeElementsFromApplicationXMLFile.vi" Type="VI" URL="../getCodeElementsFromApplicationXMLFile.vi"/>
-					<Item Name="HexTString.vi" Type="VI" URL="../HexTString.vi"/>
-					<Item Name="decodeDataIdentity.vi" Type="VI" URL="../decodeDataIdentity.vi"/>
-					<Item Name="formatData.vi" Type="VI" URL="../formatData.vi"/>
-				</Item>
-				<Item Name="Encode" Type="Folder">
-					<Item Name="combineCommandFrame.vi" Type="VI" URL="../combineCommandFrame.vi"/>
-					<Item Name="generateCheckCode.vi" Type="VI" URL="../generateCheckCode.vi"/>
-					<Item Name="generateCommand.vi" Type="VI" URL="../generateCommand.vi"/>
-					<Item Name="String2Hex.vi" Type="VI" URL="../String2Hex.vi"/>
-				</Item>
-			</Item>
 			<Item Name="Comm" Type="Folder">
 				<Item Name="detectAllVarables.vi" Type="VI" URL="../detectAllVarables.vi"/>
 				<Item Name="detectVarablesFromIP.vi" Type="VI" URL="../detectVarablesFromIP.vi"/>
@@ -48,6 +31,23 @@
 				<Item Name="setIP.vi" Type="VI" URL="../setIP.vi"/>
 				<Item Name="InitSerialPort.vi" Type="VI" URL="../InitSerialPort.vi"/>
 				<Item Name="NewSerialSource.vi" Type="VI" URL="../NewSerialSource.vi"/>
+			</Item>
+			<Item Name="CodeSettle" Type="Folder">
+				<Item Name="Decode" Type="Folder">
+					<Item Name="CmdCode2Elements.vi" Type="VI" URL="../CmdCode2Elements.vi"/>
+					<Item Name="cmdCode2Text.vi" Type="VI" URL="../cmdCode2Text.vi"/>
+					<Item Name="cmdElements2Text.vi" Type="VI" URL="../cmdElements2Text.vi"/>
+					<Item Name="decodeDataIdentity.vi" Type="VI" URL="../decodeDataIdentity.vi"/>
+					<Item Name="formatData.vi" Type="VI" URL="../formatData.vi"/>
+					<Item Name="getCodeElementsFromApplicationXMLFile.vi" Type="VI" URL="../getCodeElementsFromApplicationXMLFile.vi"/>
+					<Item Name="HexTString.vi" Type="VI" URL="../HexTString.vi"/>
+				</Item>
+				<Item Name="Encode" Type="Folder">
+					<Item Name="combineCommandFrame.vi" Type="VI" URL="../combineCommandFrame.vi"/>
+					<Item Name="generateCheckCode.vi" Type="VI" URL="../generateCheckCode.vi"/>
+					<Item Name="generateCommand.vi" Type="VI" URL="../generateCommand.vi"/>
+					<Item Name="String2Hex.vi" Type="VI" URL="../String2Hex.vi"/>
+				</Item>
 			</Item>
 			<Item Name="DataStorage" Type="Folder">
 				<Item Name="addFileCategory.vi" Type="VI" URL="../addFileCategory.vi"/>
@@ -73,6 +73,7 @@
 			<Item Name="initVI.vi" Type="VI" URL="../initVI.vi"/>
 			<Item Name="AmmeterComm.vi" Type="VI" URL="../AmmeterComm.vi"/>
 			<Item Name="saveDataToFile.vi" Type="VI" URL="../saveDataToFile.vi"/>
+			<Item Name="selectPara.vi" Type="VI" URL="../selectPara.vi"/>
 		</Item>
 		<Item Name="TypeDefine" Type="Folder">
 			<Item Name="MainStates.ctl" Type="VI" URL="../MainStates.ctl"/>
@@ -86,6 +87,8 @@
 		<Item Name="MainGlobalConstants.vi" Type="VI" URL="../MainGlobalConstants.vi"/>
 		<Item Name="Q_MGR.vi" Type="VI" URL="../Q_MGR.vi"/>
 		<Item Name="selectSubVI.vi" Type="VI" URL="../selectSubVI.vi"/>
+		<Item Name="testVI.vi" Type="VI" URL="../testVI.vi"/>
+		<Item Name="testCtl.ctl" Type="VI" URL="../testCtl.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -128,11 +131,11 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DOMUserDefRef.rc" Type="Document" URL="../../../../../../Program Files/National Instruments/LabVIEW 2010/resource/objmgr/DOMUserDefRef.rc"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="Application" Type="EXE">
@@ -168,7 +171,7 @@
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/AmmeterFolder/CodeSettle</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
