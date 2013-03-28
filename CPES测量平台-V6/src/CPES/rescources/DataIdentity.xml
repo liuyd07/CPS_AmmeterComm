@@ -1,0 +1,3618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tns:dataIdentity xmlns:tns="http://www.example.org/DataIdentitySchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/DataIdentitySchema DataIdentitySchema.xsd ">
+
+   <tns:class>
+      <tns:className>ElectricalPower</tns:className>
+      <tns:DI3>00</tns:DI3>
+      <tns:Tag3>ElectricalPower</tns:Tag3>
+      <tns:category>
+         <tns:categoryName>{DI0}组合有功费率{DI1}电能</tns:categoryName>
+         <tns:DI2>00</tns:DI2>
+         <tns:Tag2>{DI0}组合有功费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}正向有功费率{DI1}电能</tns:categoryName>
+         <tns:DI2>01</tns:DI2>
+         <tns:Tag2>{DI0}正向有功费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}反向有功费率{DI1}电能</tns:categoryName>
+         <tns:DI2>02</tns:DI2>
+         <tns:Tag2>{DI0}反向有功费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}组合无功1费率{DI1}电能</tns:categoryName>
+         <tns:DI2>03</tns:DI2>
+         <tns:Tag2>{DI0}组合无功1费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}组合无功2费率{DI1}电能</tns:categoryName>
+         <tns:DI2>04</tns:DI2>
+         <tns:Tag2>{DI0}组合无功2费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}第一象限无功费率{DI1}电能</tns:categoryName>
+         <tns:DI2>05</tns:DI2>
+         <tns:Tag2>{DI0}第一象限无功费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}第二象限无功费率{DI1}电能</tns:categoryName>
+         <tns:DI2>06</tns:DI2>
+         <tns:Tag2>{DI0}第二象限无功费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}第三象限无功费率{DI1}电能</tns:categoryName>
+         <tns:DI2>07</tns:DI2>
+         <tns:Tag2>{DI0}第三象限无功费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}第四象限无功费率{DI1}电能</tns:categoryName>
+         <tns:DI2>08</tns:DI2>
+         <tns:Tag2>{DI0}第四象限无功费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}正向视在费率{DI1}电能</tns:categoryName>
+         <tns:DI2>09</tns:DI2>
+         <tns:Tag2>{DI0}正向视在费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kVAh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}反向视在费率{DI1}电能</tns:categoryName>
+         <tns:DI2>0A</tns:DI2>
+         <tns:Tag2>{DI0}反向视在费率{DI1}电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI1 Tag1="1">01</tns:DI1>
+            <tns:DI1 Tag1="2">02</tns:DI1>
+            <tns:DI1 Tag1="3">03</tns:DI1>
+            <tns:DI1 Tag1="4">04</tns:DI1>
+            <tns:DI1 Tag1="5">05</tns:DI1>
+            <tns:DI1 Tag1="6">06</tns:DI1>
+            <tns:DI1 Tag1="7">07</tns:DI1>
+            <tns:DI1 Tag1="8">08</tns:DI1>
+            <tns:DI1 Tag1="9">09</tns:DI1>
+            <tns:DI1 Tag1="10">0A</tns:DI1>
+            <tns:DI1 Tag1="11">0B</tns:DI1>
+            <tns:DI1 Tag1="12">0C</tns:DI1>
+            <tns:DI1 Tag1="13">0D</tns:DI1>
+            <tns:DI1 Tag1="14">0E</tns:DI1>
+            <tns:DI1 Tag1="15">0F</tns:DI1>
+            <tns:DI1 Tag1="16">10</tns:DI1>
+            <tns:DI1 Tag1="17">11</tns:DI1>
+            <tns:DI1 Tag1="18">12</tns:DI1>
+            <tns:DI1 Tag1="19">13</tns:DI1>
+            <tns:DI1 Tag1="20">14</tns:DI1>
+            <tns:DI1 Tag1="21">15</tns:DI1>
+            <tns:DI1 Tag1="22">16</tns:DI1>
+            <tns:DI1 Tag1="23">17</tns:DI1>
+            <tns:DI1 Tag1="24">18</tns:DI1>
+            <tns:DI1 Tag1="25">19</tns:DI1>
+            <tns:DI1 Tag1="26">1A</tns:DI1>
+            <tns:DI1 Tag1="27">1B</tns:DI1>
+            <tns:DI1 Tag1="28">1C</tns:DI1>
+            <tns:DI1 Tag1="29">1D</tns:DI1>
+            <tns:DI1 Tag1="30">1E</tns:DI1>
+            <tns:DI1 Tag1="31">1F</tns:DI1>
+            <tns:DI1 Tag1="32">20</tns:DI1>
+            <tns:DI1 Tag1="33">21</tns:DI1>
+            <tns:DI1 Tag1="34">22</tns:DI1>
+            <tns:DI1 Tag1="35">23</tns:DI1>
+            <tns:DI1 Tag1="36">24</tns:DI1>
+            <tns:DI1 Tag1="37">25</tns:DI1>
+            <tns:DI1 Tag1="38">26</tns:DI1>
+            <tns:DI1 Tag1="39">27</tns:DI1>
+            <tns:DI1 Tag1="40">28</tns:DI1>
+            <tns:DI1 Tag1="41">29</tns:DI1>
+            <tns:DI1 Tag1="42">2A</tns:DI1>
+            <tns:DI1 Tag1="43">2B</tns:DI1>
+            <tns:DI1 Tag1="44">2C</tns:DI1>
+            <tns:DI1 Tag1="45">2D</tns:DI1>
+            <tns:DI1 Tag1="46">2E</tns:DI1>
+            <tns:DI1 Tag1="47">2F</tns:DI1>
+            <tns:DI1 Tag1="48">30</tns:DI1>
+            <tns:DI1 Tag1="49">31</tns:DI1>
+            <tns:DI1 Tag1="50">32</tns:DI1>
+            <tns:DI1 Tag1="51">33</tns:DI1>
+            <tns:DI1 Tag1="52">34</tns:DI1>
+            <tns:DI1 Tag1="53">35</tns:DI1>
+            <tns:DI1 Tag1="54">36</tns:DI1>
+            <tns:DI1 Tag1="55">37</tns:DI1>
+            <tns:DI1 Tag1="56">38</tns:DI1>
+            <tns:DI1 Tag1="57">39</tns:DI1>
+            <tns:DI1 Tag1="58">3A</tns:DI1>
+            <tns:DI1 Tag1="59">3B</tns:DI1>
+            <tns:DI1 Tag1="60">3C</tns:DI1>
+            <tns:DI1 Tag1="61">3D</tns:DI1>
+            <tns:DI1 Tag1="62">3E</tns:DI1>
+            <tns:DI1 Tag1="63">3F</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kVAh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相正向有功电能</tns:categoryName>
+         <tns:DI2>15</tns:DI2>
+         <tns:Tag2>{DI0}A相正向有功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相反向有功电能</tns:categoryName>
+         <tns:DI2>16</tns:DI2>
+         <tns:Tag2>{DI0}A相反向有功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相组合无功1电能</tns:categoryName>
+         <tns:DI2>17</tns:DI2>
+         <tns:Tag2>{DI0}A相组合无功1电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相组合无功2电能</tns:categoryName>
+         <tns:DI2>18</tns:DI2>
+         <tns:Tag2>{DI0}A相组合无功2电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相第一象限无功电能</tns:categoryName>
+         <tns:DI2>19</tns:DI2>
+         <tns:Tag2>{DI0}A相第一象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相第二象限无功电能</tns:categoryName>
+         <tns:DI2>1A</tns:DI2>
+         <tns:Tag2>{DI0}A相第二象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相第三象限无功电能</tns:categoryName>
+         <tns:DI2>1B</tns:DI2>
+         <tns:Tag2>{DI0}A相第三象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相第四象限无功电能</tns:categoryName>
+         <tns:DI2>1C</tns:DI2>
+         <tns:Tag2>{DI0}A相第四象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相正向视在电能</tns:categoryName>
+         <tns:DI2>1D</tns:DI2>
+         <tns:Tag2>{DI0}A相正向视在电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kVAh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相反向视在电能</tns:categoryName>
+         <tns:DI2>1E</tns:DI2>
+         <tns:Tag2>{DI0}A相反向视在电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kVAh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相正向有功电能</tns:categoryName>
+         <tns:DI2>29</tns:DI2>
+         <tns:Tag2>{DI0}B相正向有功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相反向有功电能</tns:categoryName>
+         <tns:DI2>2A</tns:DI2>
+         <tns:Tag2>{DI0}B相反向有功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相组合无功1电能</tns:categoryName>
+         <tns:DI2>2B</tns:DI2>
+         <tns:Tag2>{DI0}B相组合无功1电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相组合无功2电能</tns:categoryName>
+         <tns:DI2>2C</tns:DI2>
+         <tns:Tag2>{DI0}B相组合无功2电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相第一象限无功电能</tns:categoryName>
+         <tns:DI2>2D</tns:DI2>
+         <tns:Tag2>{DI0}B相第一象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相第二象限无功电能</tns:categoryName>
+         <tns:DI2>2E</tns:DI2>
+         <tns:Tag2>{DI0}B相第二象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相第三象限无功电能</tns:categoryName>
+         <tns:DI2>2F</tns:DI2>
+         <tns:Tag2>{DI0}B相第三象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相第四象限无功电能</tns:categoryName>
+         <tns:DI2>30</tns:DI2>
+         <tns:Tag2>{DI0}B相第四象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相正向视在电能</tns:categoryName>
+         <tns:DI2>31</tns:DI2>
+         <tns:Tag2>{DI0}B相正向视在电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kVAh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相反向视在电能</tns:categoryName>
+         <tns:DI2>32</tns:DI2>
+         <tns:Tag2>{DI0}B相反向视在电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kVAh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相正向有功电能</tns:categoryName>
+         <tns:DI2>3D</tns:DI2>
+         <tns:Tag2>{DI0}C相正向有功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相反向有功电能</tns:categoryName>
+         <tns:DI2>3E</tns:DI2>
+         <tns:Tag2>{DI0}C相反向有功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相组合无功1电能</tns:categoryName>
+         <tns:DI2>3F</tns:DI2>
+         <tns:Tag2>{DI0}C相组合无功1电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相组合无功2电能</tns:categoryName>
+         <tns:DI2>40</tns:DI2>
+         <tns:Tag2>{DI0}C相组合无功2电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相第一象限无功电能</tns:categoryName>
+         <tns:DI2>41</tns:DI2>
+         <tns:Tag2>{DI0}C相第一象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相第二象限无功电能</tns:categoryName>
+         <tns:DI2>42</tns:DI2>
+         <tns:Tag2>{DI0}C相第二象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相第三象限无功电能</tns:categoryName>
+         <tns:DI2>43</tns:DI2>
+         <tns:Tag2>{DI0}C相第三象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相第四象限无功电能</tns:categoryName>
+         <tns:DI2>44</tns:DI2>
+         <tns:Tag2>{DI0}C相第四象限无功电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相正向视在电能</tns:categoryName>
+         <tns:DI2>45</tns:DI2>
+         <tns:Tag2>{DI0}C相正向视在电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kVAh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相反向视在电能</tns:categoryName>
+         <tns:DI2>46</tns:DI2>
+         <tns:Tag2>{DI0}C相反向视在电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kVAh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}关联总电能</tns:categoryName>
+         <tns:DI2>80</tns:DI2>
+         <tns:Tag2>{DI0}关联总电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}正向有功基波总电能</tns:categoryName>
+         <tns:DI2>81</tns:DI2>
+         <tns:Tag2>{DI0}正向有功基波总电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}反向有功基波总电能</tns:categoryName>
+         <tns:DI2>82</tns:DI2>
+         <tns:Tag2>{DI0}反向有功基波总电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}正向有功谐波总电能</tns:categoryName>
+         <tns:DI2>83</tns:DI2>
+         <tns:Tag2>{DI0}正向有功谐波总电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}反向有功谐波总电能</tns:categoryName>
+         <tns:DI2>84</tns:DI2>
+         <tns:Tag2>{DI0}反向有功谐波总电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}铜损有功总电能补偿量</tns:categoryName>
+         <tns:DI2>85</tns:DI2>
+         <tns:Tag2>{DI0}铜损有功总电能补偿量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}铁损有功总电能补偿量</tns:categoryName>
+         <tns:DI2>86</tns:DI2>
+         <tns:Tag2>{DI0}铁损有功总电能补偿量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相关联电能</tns:categoryName>
+         <tns:DI2>94</tns:DI2>
+         <tns:Tag2>{DI0}A相关联电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相反向有功基波电能</tns:categoryName>
+         <tns:DI2>96</tns:DI2>
+         <tns:Tag2>{DI0}A相反向有功基波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相正向有功谐波电能</tns:categoryName>
+         <tns:DI2>97</tns:DI2>
+         <tns:Tag2>{DI0}A相正向有功谐波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相反向有功谐波电能</tns:categoryName>
+         <tns:DI2>98</tns:DI2>
+         <tns:Tag2>{DI0}A相反向有功谐波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相铜损有功电能补偿量</tns:categoryName>
+         <tns:DI2>99</tns:DI2>
+         <tns:Tag2>{DI0}A相铜损有功电能补偿量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}A相铁损有功电能补偿量</tns:categoryName>
+         <tns:DI2>9A</tns:DI2>
+         <tns:Tag2>{DI0}A相铁损有功电能补偿量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相关联电能</tns:categoryName>
+         <tns:DI2>A8</tns:DI2>
+         <tns:Tag2>{DI0}B相关联电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相正向有功基波电能</tns:categoryName>
+         <tns:DI2>A9</tns:DI2>
+         <tns:Tag2>{DI0}B相正向有功基波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相反向有功基波电能</tns:categoryName>
+         <tns:DI2>AA</tns:DI2>
+         <tns:Tag2>{DI0}B相反向有功基波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相正向有功谐波电能</tns:categoryName>
+         <tns:DI2>AB</tns:DI2>
+         <tns:Tag2>{DI0}B相正向有功谐波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相反向有功谐波电能</tns:categoryName>
+         <tns:DI2>AC</tns:DI2>
+         <tns:Tag2>{DI0}B相反向有功谐波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相铜损有功电能补偿量</tns:categoryName>
+         <tns:DI2>AD</tns:DI2>
+         <tns:Tag2>{DI0}B相铜损有功电能补偿量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}B相铁损有功电能补偿量</tns:categoryName>
+         <tns:DI2>AE</tns:DI2>
+         <tns:Tag2>{DI0}B相铁损有功电能补偿量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相关联电能</tns:categoryName>
+         <tns:DI2>BC</tns:DI2>
+         <tns:Tag2>{DI0}C相关联电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相正向有功基波电能</tns:categoryName>
+         <tns:DI2>BD</tns:DI2>
+         <tns:Tag2>{DI0}C相正向有功基波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相反向有功基波电能</tns:categoryName>
+         <tns:DI2>BE</tns:DI2>
+         <tns:Tag2>{DI0}C相反向有功基波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相正向有功谐波电能</tns:categoryName>
+         <tns:DI2>BF</tns:DI2>
+         <tns:Tag2>{DI0}C相正向有功谐波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相反向有功谐波电能</tns:categoryName>
+         <tns:DI2>C0</tns:DI2>
+         <tns:Tag2>{DI0}C相反向有功谐波电能</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相铜损有功电能补偿量</tns:categoryName>
+         <tns:DI2>C1</tns:DI2>
+         <tns:Tag2>{DI0}C相铜损有功电能补偿量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}C相铁损有功电能补偿量</tns:categoryName>
+         <tns:DI2>C2</tns:DI2>
+         <tns:Tag2>{DI0}C相铁损有功电能补偿量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="（当前）">00</tns:DI0>
+            <tns:DI0 Tag0="(上1结算日)">01</tns:DI0>
+            <tns:DI0 Tag0="(上2结算日)">02</tns:DI0>
+            <tns:DI0 Tag0="(上3结算日)">03</tns:DI0>
+            <tns:DI0 Tag0="(上4结算日)">04</tns:DI0>
+            <tns:DI0 Tag0="(上5结算日)">05</tns:DI0>
+            <tns:DI0 Tag0="(上6结算日)">06</tns:DI0>
+            <tns:DI0 Tag0="(上7结算日)">07</tns:DI0>
+            <tns:DI0 Tag0="(上8结算日)">08</tns:DI0>
+            <tns:DI0 Tag0="(上9结算日)">09</tns:DI0>
+            <tns:DI0 Tag0="(上10结算日)">0A</tns:DI0>
+            <tns:DI0 Tag0="(上11结算日)">0B</tns:DI0>
+            <tns:DI0 Tag0="(上12结算日)">0C</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}{DI1}</tns:categoryName>
+         <tns:DI2>90</tns:DI2>
+         <tns:Tag2>{DI0}{DI1}</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="电量">01</tns:DI1>
+            <tns:DI0 Tag0="（当前）剩余">00</tns:DI0>
+            <tns:DI0 Tag0="（当前）透支">01</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>kWh</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI0}{DI1}</tns:categoryName>
+         <tns:DI2>90</tns:DI2>
+         <tns:Tag2>{DI0}{DI1}</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="金额">02</tns:DI1>
+            <tns:DI0 Tag0="（当前）剩余">00</tns:DI0>
+            <tns:DI0 Tag0="（当前）透支">01</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>元</tns:unit>
+            <tns:dataFormat>XXXXXX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+   </tns:class>
+   <tns:class>
+      <tns:className>Variable</tns:className>
+      <tns:DI3>02</tns:DI3>
+      <tns:Tag3>Variable</tns:Tag3>
+      <tns:category>
+         <tns:categoryName>{DI1}电压</tns:categoryName>
+         <tns:DI2>01</tns:DI2>
+         <tns:Tag2>{DI1}电压</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>2</tns:dataLength>
+            <tns:unit>V</tns:unit>
+            <tns:dataFormat>XXX.X</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}电流</tns:categoryName>
+         <tns:DI2>02</tns:DI2>
+         <tns:Tag2>{DI1}电流</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>A</tns:unit>
+            <tns:dataFormat>XXX.XXX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}瞬时有功功率</tns:categoryName>
+         <tns:DI2>03</tns:DI2>
+         <tns:Tag2>{DI1}瞬时有功功率</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>kW</tns:unit>
+            <tns:dataFormat>·</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}瞬时无功功率</tns:categoryName>
+         <tns:DI2>04</tns:DI2>
+         <tns:Tag2>{DI1}瞬时无功功率</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>kvar</tns:unit>
+            <tns:dataFormat>XX.XXXX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}瞬时视在功率</tns:categoryName>
+         <tns:DI2>05</tns:DI2>
+         <tns:Tag2>{DI1}瞬时视在功率</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>kVA</tns:unit>
+            <tns:dataFormat>XX.XXXX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}功率因数</tns:categoryName>
+         <tns:DI2>06</tns:DI2>
+         <tns:Tag2>{DI1}功率因数</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI1 Tag1="总">00</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>kVA</tns:unit>
+            <tns:dataFormat>X.XXX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}相角</tns:categoryName>
+         <tns:DI2>07</tns:DI2>
+         <tns:Tag2>{DI1}相角</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>度</tns:unit>
+            <tns:dataFormat>XXX.X</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}电压波形失真度</tns:categoryName>
+         <tns:DI2>08</tns:DI2>
+         <tns:Tag2>{DI1}电压波形失真度</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>%</tns:unit>
+            <tns:dataFormat>XX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}电流波形失真度</tns:categoryName>
+         <tns:DI2>09</tns:DI2>
+         <tns:Tag2>{DI1}电流波形失真度</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI1 Tag1="数据块">FF</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>%</tns:unit>
+            <tns:dataFormat>XX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}电压{DI0}谐波含量</tns:categoryName>
+         <tns:DI2>0A</tns:DI2>
+         <tns:Tag2>{DI1}电压{DI0}谐波含量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI0 Tag0="1次">01</tns:DI0>
+            <tns:DI0 Tag0="2次">02</tns:DI0>
+            <tns:DI0 Tag0="3次">03</tns:DI0>
+            <tns:DI0 Tag0="4次">04</tns:DI0>
+            <tns:DI0 Tag0="5次">05</tns:DI0>
+            <tns:DI0 Tag0="6次">06</tns:DI0>
+            <tns:DI0 Tag0="7次">07</tns:DI0>
+            <tns:DI0 Tag0="8次">08</tns:DI0>
+            <tns:DI0 Tag0="9次">09</tns:DI0>
+            <tns:DI0 Tag0="10次">0A</tns:DI0>
+            <tns:DI0 Tag0="11次">0B</tns:DI0>
+            <tns:DI0 Tag0="12次">0C</tns:DI0>
+            <tns:DI0 Tag0="13次">0D</tns:DI0>
+            <tns:DI0 Tag0="14次">0E</tns:DI0>
+            <tns:DI0 Tag0="15次">0F</tns:DI0>
+            <tns:DI0 Tag0="16次">10</tns:DI0>
+            <tns:DI0 Tag0="17次">11</tns:DI0>
+            <tns:DI0 Tag0="18次">12</tns:DI0>
+            <tns:DI0 Tag0="19次">13</tns:DI0>
+            <tns:DI0 Tag0="20次">14</tns:DI0>
+            <tns:DI0 Tag0="21次">15</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>%</tns:unit>
+            <tns:dataFormat>XX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}电流{DI0}谐波含量</tns:categoryName>
+         <tns:DI2>0B</tns:DI2>
+         <tns:Tag2>{DI1}电流{DI0}谐波含量</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="A相">01</tns:DI1>
+            <tns:DI1 Tag1="B相">02</tns:DI1>
+            <tns:DI1 Tag1="C相">03</tns:DI1>
+            <tns:DI0 Tag0="1次">01</tns:DI0>
+            <tns:DI0 Tag0="2次">02</tns:DI0>
+            <tns:DI0 Tag0="3次">03</tns:DI0>
+            <tns:DI0 Tag0="4次">04</tns:DI0>
+            <tns:DI0 Tag0="5次">05</tns:DI0>
+            <tns:DI0 Tag0="6次">06</tns:DI0>
+            <tns:DI0 Tag0="7次">07</tns:DI0>
+            <tns:DI0 Tag0="8次">08</tns:DI0>
+            <tns:DI0 Tag0="9次">09</tns:DI0>
+            <tns:DI0 Tag0="10次">0A</tns:DI0>
+            <tns:DI0 Tag0="11次">0B</tns:DI0>
+            <tns:DI0 Tag0="12次">0C</tns:DI0>
+            <tns:DI0 Tag0="13次">0D</tns:DI0>
+            <tns:DI0 Tag0="14次">0E</tns:DI0>
+            <tns:DI0 Tag0="15次">0F</tns:DI0>
+            <tns:DI0 Tag0="16次">10</tns:DI0>
+            <tns:DI0 Tag0="17次">11</tns:DI0>
+            <tns:DI0 Tag0="18次">12</tns:DI0>
+            <tns:DI0 Tag0="19次">13</tns:DI0>
+            <tns:DI0 Tag0="20次">14</tns:DI0>
+            <tns:DI0 Tag0="21次">15</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>%</tns:unit>
+            <tns:dataFormat>XX.XX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>基本电量</tns:categoryName>
+         <tns:DI2>80</tns:DI2>
+         <tns:Tag2>基本电量</tns:Tag2>
+         <tns:finalTag>DI0</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="零线电流">01</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>A</tns:unit>
+            <tns:dataFormat>XXX.XXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="电网频率">02</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>Hz</tns:unit>
+            <tns:dataFormat>XX.XX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="一分钟有功总平均功率">03</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>kW</tns:unit>
+            <tns:dataFormat>XX.XXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="当前有功需量">04</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>kW</tns:unit>
+            <tns:dataFormat>XX.XXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="当前无功需量">05</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>kvar</tns:unit>
+            <tns:dataFormat>XX.XXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="当前视在需量">06</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>kVA</tns:unit>
+            <tns:dataFormat>XX.XXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="表内温度">07</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>℃</tns:unit>
+            <tns:dataFormat>XXX.X</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="时钟电池电压(内部)">08</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>V</tns:unit>
+            <tns:dataFormat>XX.XX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="停电抄表电池电压(外部)">09</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>V</tns:unit>
+            <tns:dataFormat>XX.XX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="内部电池工作时间">0A</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>分</tns:unit>
+            <tns:dataFormat>XXXXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="当前阶梯电价">0B</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>元/kWh</tns:unit>
+            <tns:dataFormat>XXXX.XXXX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+   </tns:class>
+   <tns:class>
+      <tns:className>Parameter</tns:className>
+      <tns:DI3>04</tns:DI3>
+      <tns:Tag3>Parameter</tns:Tag3>
+      <tns:category>
+         <tns:categoryName>基本参变量</tns:categoryName>
+         <tns:DI2>00</tns:DI2>
+         <tns:Tag2>基本参变量</tns:Tag2>
+         <tns:finalTag>DI0</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">01</tns:DI1>
+            <tns:DI0 Tag0="日期及星期(其中0代表星期天)">01</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>年月日星期</tns:unit>
+            <tns:dataFormat>YYMMDDWW</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">01</tns:DI1>
+            <tns:DI0 Tag0="时间">02</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>时分秒</tns:unit>
+            <tns:dataFormat>hhmmss</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">01</tns:DI1>
+            <tns:DI0 Tag0="最大需量周期">03</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>分</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">01</tns:DI1>
+            <tns:DI0 Tag0="滑差时间">04</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>分</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">01</tns:DI1>
+            <tns:DI0 Tag0="校表脉冲宽度">05</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>毫秒</tns:unit>
+            <tns:dataFormat>XXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">01</tns:DI1>
+            <tns:DI0 Tag0="两套时区表切换时间">06</tns:DI0>
+            <tns:dataLength>05</tns:dataLength>
+            <tns:unit>年月日时分</tns:unit>
+            <tns:dataFormat>YYMMDDhhmm</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">01</tns:DI1>
+            <tns:DI0 Tag0="两套日时段切换时间">07</tns:DI0>
+            <tns:dataLength>05</tns:dataLength>
+            <tns:unit>年月日时分</tns:unit>
+            <tns:dataFormat>YYMMDDhhmm</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">02</tns:DI1>
+            <tns:DI0 Tag0="年时区数p≤14">01</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">02</tns:DI1>
+            <tns:DI0 Tag0="日时段表数q≤8">02</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">02</tns:DI1>
+            <tns:DI0 Tag0="日时段数(每日切换数)m≤14">03</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">02</tns:DI1>
+            <tns:DI0 Tag0="费率数k≤63">04</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">02</tns:DI1>
+            <tns:DI0 Tag0="公共假日数n≤254">05</tns:DI0>
+            <tns:dataLength>02</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NNNN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">02</tns:DI1>
+            <tns:DI0 Tag0="谐波分析次数">06</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>次</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">03</tns:DI1>
+            <tns:DI0 Tag0="自动循环显示屏数">01</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">03</tns:DI1>
+            <tns:DI0 Tag0="每屏显示时间">02</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>秒</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">03</tns:DI1>
+            <tns:DI0 Tag0="显示电能小数位数">03</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>位</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">03</tns:DI1>
+            <tns:DI0 Tag0="显示功率（最大需量）小数位数">04</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>位</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">03</tns:DI1>
+            <tns:DI0 Tag0="按键循环显示屏数">05</tns:DI0>
+            <tns:dataLength>01</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="通信地址">01</tns:DI0>
+            <tns:dataLength>06</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NNNNNNNNNNNN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="表号">02</tns:DI0>
+            <tns:dataLength>06</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NNNNNNNNNNNN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="资产管理编码（ASCII码）">03</tns:DI0>
+            <tns:dataLength>32</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="额定电压（ASCII码）">04</tns:DI0>
+            <tns:dataLength>06</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>XXXXXXXXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="额定电流/基本电流（ASCII码）">05</tns:DI0>
+            <tns:dataLength>06</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>XXXXXXXXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="最大电流（ASCII码）">06</tns:DI0>
+            <tns:dataLength>06</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>XXXXXXXXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="有功准确度等级（ASCII码）">70</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>XXXXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="无功准确度等级（ASCII码）">08</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>个</tns:unit>
+            <tns:dataFormat>XXXXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="电表有功常数">09</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>imp/kWh</tns:unit>
+            <tns:dataFormat>XXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="电表无功常数">0A</tns:DI0>
+            <tns:dataLength>03</tns:dataLength>
+            <tns:unit>imp/kvarh</tns:unit>
+            <tns:dataFormat>XXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="电表型号（ASCII码）">0B</tns:DI0>
+            <tns:dataLength>10</tns:dataLength>
+            <tns:unit>imp/kvarh</tns:unit>
+            <tns:dataFormat>XXXXXXXXXXXXXXXXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="生产日期（ASCII码）">0C</tns:DI0>
+            <tns:dataLength>10</tns:dataLength>
+            <tns:unit>imp/kvarh</tns:unit>
+            <tns:dataFormat>XXXXXXXXXXXXXXXXXXXX</tns:dataFormat>
+         </tns:function>
+         <tns:function>
+            <tns:DI1 Tag1="Null">04</tns:DI1>
+            <tns:DI0 Tag0="协议版本号（ASCII码）">0D</tns:DI0>
+            <tns:dataLength>16</tns:dataLength>
+            <tns:unit>imp/kvarh</tns:unit>
+            <tns:dataFormat>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>第一套时区表数据</tns:categoryName>
+         <tns:DI2>01</tns:DI2>
+         <tns:Tag2>第一套时区表数据</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>42</tns:dataLength>
+            <tns:unit>V</tns:unit>
+            <tns:dataFormat>NNN.N</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>第二套时区表数据</tns:categoryName>
+         <tns:DI2>02</tns:DI2>
+         <tns:Tag2>第二套时区表数据</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="Null">00</tns:DI0>
+            <tns:dataLength>42</tns:dataLength>
+            <tns:unit>V</tns:unit>
+            <tns:dataFormat>NNN.N</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>第{DI0}公共假日日期及日时段表号</tns:categoryName>
+         <tns:DI2>03</tns:DI2>
+         <tns:Tag2>第{DI0}公共假日日期及日时段表号</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="Null">00</tns:DI1>
+            <tns:DI0 Tag0="1">01</tns:DI0>
+            <tns:DI0 Tag0="2">02</tns:DI0>
+            <tns:DI0 Tag0="3">03</tns:DI0>
+            <tns:DI0 Tag0="4">04</tns:DI0>
+            <tns:DI0 Tag0="5">05</tns:DI0>
+            <tns:DI0 Tag0="6">06</tns:DI0>
+            <tns:DI0 Tag0="7">07</tns:DI0>
+            <tns:DI0 Tag0="8">08</tns:DI0>
+            <tns:DI0 Tag0="9">09</tns:DI0>
+            <tns:DI0 Tag0="10">0A</tns:DI0>
+            <tns:DI0 Tag0="11">0B</tns:DI0>
+            <tns:DI0 Tag0="12">0C</tns:DI0>
+            <tns:DI0 Tag0="13">0D</tns:DI0>
+            <tns:DI0 Tag0="14">0E</tns:DI0>
+            <tns:DI0 Tag0="15">0F</tns:DI0>
+            <tns:DI0 Tag0="16">10</tns:DI0>
+            <tns:DI0 Tag0="17">11</tns:DI0>
+            <tns:DI0 Tag0="18">12</tns:DI0>
+            <tns:DI0 Tag0="19">13</tns:DI0>
+            <tns:DI0 Tag0="20">14</tns:DI0>
+            <tns:DI0 Tag0="21">15</tns:DI0>
+            <tns:DI0 Tag0="22">16</tns:DI0>
+            <tns:DI0 Tag0="23">17</tns:DI0>
+            <tns:DI0 Tag0="24">18</tns:DI0>
+            <tns:DI0 Tag0="25">19</tns:DI0>
+            <tns:DI0 Tag0="26">1A</tns:DI0>
+            <tns:DI0 Tag0="27">1B</tns:DI0>
+            <tns:DI0 Tag0="28">1C</tns:DI0>
+            <tns:DI0 Tag0="29">1D</tns:DI0>
+            <tns:DI0 Tag0="30">1E</tns:DI0>
+            <tns:DI0 Tag0="31">1F</tns:DI0>
+            <tns:DI0 Tag0="32">20</tns:DI0>
+            <tns:DI0 Tag0="33">21</tns:DI0>
+            <tns:DI0 Tag0="34">22</tns:DI0>
+            <tns:DI0 Tag0="35">23</tns:DI0>
+            <tns:DI0 Tag0="36">24</tns:DI0>
+            <tns:DI0 Tag0="37">25</tns:DI0>
+            <tns:DI0 Tag0="38">26</tns:DI0>
+            <tns:DI0 Tag0="39">27</tns:DI0>
+            <tns:DI0 Tag0="40">28</tns:DI0>
+            <tns:DI0 Tag0="41">29</tns:DI0>
+            <tns:DI0 Tag0="42">2A</tns:DI0>
+            <tns:DI0 Tag0="43">2B</tns:DI0>
+            <tns:DI0 Tag0="44">2C</tns:DI0>
+            <tns:DI0 Tag0="45">2D</tns:DI0>
+            <tns:DI0 Tag0="46">2E</tns:DI0>
+            <tns:DI0 Tag0="47">2F</tns:DI0>
+            <tns:DI0 Tag0="48">30</tns:DI0>
+            <tns:DI0 Tag0="49">31</tns:DI0>
+            <tns:DI0 Tag0="50">32</tns:DI0>
+            <tns:DI0 Tag0="51">33</tns:DI0>
+            <tns:DI0 Tag0="52">34</tns:DI0>
+            <tns:DI0 Tag0="53">35</tns:DI0>
+            <tns:DI0 Tag0="54">36</tns:DI0>
+            <tns:DI0 Tag0="55">37</tns:DI0>
+            <tns:DI0 Tag0="56">38</tns:DI0>
+            <tns:DI0 Tag0="57">39</tns:DI0>
+            <tns:DI0 Tag0="58">3A</tns:DI0>
+            <tns:DI0 Tag0="59">3B</tns:DI0>
+            <tns:DI0 Tag0="60">3C</tns:DI0>
+            <tns:DI0 Tag0="61">3D</tns:DI0>
+            <tns:DI0 Tag0="62">3E</tns:DI0>
+            <tns:DI0 Tag0="63">3F</tns:DI0>
+            <tns:DI0 Tag0="64">40</tns:DI0>
+            <tns:DI0 Tag0="65">41</tns:DI0>
+            <tns:DI0 Tag0="66">42</tns:DI0>
+            <tns:DI0 Tag0="67">43</tns:DI0>
+            <tns:DI0 Tag0="68">44</tns:DI0>
+            <tns:DI0 Tag0="69">45</tns:DI0>
+            <tns:DI0 Tag0="70">46</tns:DI0>
+            <tns:DI0 Tag0="71">47</tns:DI0>
+            <tns:DI0 Tag0="72">48</tns:DI0>
+            <tns:DI0 Tag0="73">49</tns:DI0>
+            <tns:DI0 Tag0="74">4A</tns:DI0>
+            <tns:DI0 Tag0="75">4B</tns:DI0>
+            <tns:DI0 Tag0="76">4C</tns:DI0>
+            <tns:DI0 Tag0="77">4D</tns:DI0>
+            <tns:DI0 Tag0="78">4E</tns:DI0>
+            <tns:DI0 Tag0="79">4F</tns:DI0>
+            <tns:DI0 Tag0="80">50</tns:DI0>
+            <tns:DI0 Tag0="81">51</tns:DI0>
+            <tns:DI0 Tag0="82">52</tns:DI0>
+            <tns:DI0 Tag0="83">53</tns:DI0>
+            <tns:DI0 Tag0="84">54</tns:DI0>
+            <tns:DI0 Tag0="85">55</tns:DI0>
+            <tns:DI0 Tag0="86">56</tns:DI0>
+            <tns:DI0 Tag0="87">57</tns:DI0>
+            <tns:DI0 Tag0="88">58</tns:DI0>
+            <tns:DI0 Tag0="89">59</tns:DI0>
+            <tns:DI0 Tag0="90">5A</tns:DI0>
+            <tns:DI0 Tag0="91">5B</tns:DI0>
+            <tns:DI0 Tag0="92">5C</tns:DI0>
+            <tns:DI0 Tag0="93">5D</tns:DI0>
+            <tns:DI0 Tag0="94">5E</tns:DI0>
+            <tns:DI0 Tag0="95">5F</tns:DI0>
+            <tns:DI0 Tag0="96">60</tns:DI0>
+            <tns:DI0 Tag0="97">61</tns:DI0>
+            <tns:DI0 Tag0="98">62</tns:DI0>
+            <tns:DI0 Tag0="99">63</tns:DI0>
+            <tns:DI0 Tag0="100">64</tns:DI0>
+            <tns:DI0 Tag0="101">65</tns:DI0>
+            <tns:DI0 Tag0="102">66</tns:DI0>
+            <tns:DI0 Tag0="103">67</tns:DI0>
+            <tns:DI0 Tag0="104">68</tns:DI0>
+            <tns:DI0 Tag0="105">69</tns:DI0>
+            <tns:DI0 Tag0="106">6A</tns:DI0>
+            <tns:DI0 Tag0="107">6B</tns:DI0>
+            <tns:DI0 Tag0="108">6C</tns:DI0>
+            <tns:DI0 Tag0="109">6D</tns:DI0>
+            <tns:DI0 Tag0="110">6E</tns:DI0>
+            <tns:DI0 Tag0="111">6F</tns:DI0>
+            <tns:DI0 Tag0="112">70</tns:DI0>
+            <tns:DI0 Tag0="113">71</tns:DI0>
+            <tns:DI0 Tag0="114">72</tns:DI0>
+            <tns:DI0 Tag0="115">73</tns:DI0>
+            <tns:DI0 Tag0="116">74</tns:DI0>
+            <tns:DI0 Tag0="117">75</tns:DI0>
+            <tns:DI0 Tag0="118">76</tns:DI0>
+            <tns:DI0 Tag0="119">77</tns:DI0>
+            <tns:DI0 Tag0="120">78</tns:DI0>
+            <tns:DI0 Tag0="121">79</tns:DI0>
+            <tns:DI0 Tag0="122">7A</tns:DI0>
+            <tns:DI0 Tag0="123">7B</tns:DI0>
+            <tns:DI0 Tag0="124">7C</tns:DI0>
+            <tns:DI0 Tag0="125">7D</tns:DI0>
+            <tns:DI0 Tag0="126">7E</tns:DI0>
+            <tns:DI0 Tag0="127">7F</tns:DI0>
+            <tns:DI0 Tag0="128">80</tns:DI0>
+            <tns:DI0 Tag0="129">81</tns:DI0>
+            <tns:DI0 Tag0="130">82</tns:DI0>
+            <tns:DI0 Tag0="131">83</tns:DI0>
+            <tns:DI0 Tag0="132">84</tns:DI0>
+            <tns:DI0 Tag0="133">85</tns:DI0>
+            <tns:DI0 Tag0="134">86</tns:DI0>
+            <tns:DI0 Tag0="135">87</tns:DI0>
+            <tns:DI0 Tag0="136">88</tns:DI0>
+            <tns:DI0 Tag0="137">89</tns:DI0>
+            <tns:DI0 Tag0="138">8A</tns:DI0>
+            <tns:DI0 Tag0="139">8B</tns:DI0>
+            <tns:DI0 Tag0="140">8C</tns:DI0>
+            <tns:DI0 Tag0="141">8D</tns:DI0>
+            <tns:DI0 Tag0="142">8E</tns:DI0>
+            <tns:DI0 Tag0="143">8F</tns:DI0>
+            <tns:DI0 Tag0="144">90</tns:DI0>
+            <tns:DI0 Tag0="145">91</tns:DI0>
+            <tns:DI0 Tag0="146">92</tns:DI0>
+            <tns:DI0 Tag0="147">93</tns:DI0>
+            <tns:DI0 Tag0="148">94</tns:DI0>
+            <tns:DI0 Tag0="149">95</tns:DI0>
+            <tns:DI0 Tag0="150">96</tns:DI0>
+            <tns:DI0 Tag0="151">97</tns:DI0>
+            <tns:DI0 Tag0="152">98</tns:DI0>
+            <tns:DI0 Tag0="153">99</tns:DI0>
+            <tns:DI0 Tag0="154">9A</tns:DI0>
+            <tns:DI0 Tag0="155">9B</tns:DI0>
+            <tns:DI0 Tag0="156">9C</tns:DI0>
+            <tns:DI0 Tag0="157">9D</tns:DI0>
+            <tns:DI0 Tag0="158">9E</tns:DI0>
+            <tns:DI0 Tag0="159">9F</tns:DI0>
+            <tns:DI0 Tag0="160">A0</tns:DI0>
+            <tns:DI0 Tag0="161">A1</tns:DI0>
+            <tns:DI0 Tag0="162">A2</tns:DI0>
+            <tns:DI0 Tag0="163">A3</tns:DI0>
+            <tns:DI0 Tag0="164">A4</tns:DI0>
+            <tns:DI0 Tag0="165">A5</tns:DI0>
+            <tns:DI0 Tag0="166">A6</tns:DI0>
+            <tns:DI0 Tag0="167">A7</tns:DI0>
+            <tns:DI0 Tag0="168">A8</tns:DI0>
+            <tns:DI0 Tag0="169">A9</tns:DI0>
+            <tns:DI0 Tag0="170">AA</tns:DI0>
+            <tns:DI0 Tag0="171">AB</tns:DI0>
+            <tns:DI0 Tag0="172">AC</tns:DI0>
+            <tns:DI0 Tag0="173">AD</tns:DI0>
+            <tns:DI0 Tag0="174">AE</tns:DI0>
+            <tns:DI0 Tag0="175">AF</tns:DI0>
+            <tns:DI0 Tag0="176">B0</tns:DI0>
+            <tns:DI0 Tag0="177">B1</tns:DI0>
+            <tns:DI0 Tag0="178">B2</tns:DI0>
+            <tns:DI0 Tag0="179">B3</tns:DI0>
+            <tns:DI0 Tag0="180">B4</tns:DI0>
+            <tns:DI0 Tag0="181">B5</tns:DI0>
+            <tns:DI0 Tag0="182">B6</tns:DI0>
+            <tns:DI0 Tag0="183">B7</tns:DI0>
+            <tns:DI0 Tag0="184">B8</tns:DI0>
+            <tns:DI0 Tag0="185">B9</tns:DI0>
+            <tns:DI0 Tag0="186">BA</tns:DI0>
+            <tns:DI0 Tag0="187">BB</tns:DI0>
+            <tns:DI0 Tag0="188">BC</tns:DI0>
+            <tns:DI0 Tag0="189">BD</tns:DI0>
+            <tns:DI0 Tag0="190">BE</tns:DI0>
+            <tns:DI0 Tag0="191">BF</tns:DI0>
+            <tns:DI0 Tag0="192">C0</tns:DI0>
+            <tns:DI0 Tag0="193">C1</tns:DI0>
+            <tns:DI0 Tag0="194">C2</tns:DI0>
+            <tns:DI0 Tag0="195">C3</tns:DI0>
+            <tns:DI0 Tag0="196">C4</tns:DI0>
+            <tns:DI0 Tag0="197">C5</tns:DI0>
+            <tns:DI0 Tag0="198">C6</tns:DI0>
+            <tns:DI0 Tag0="199">C7</tns:DI0>
+            <tns:DI0 Tag0="200">C8</tns:DI0>
+            <tns:DI0 Tag0="201">C9</tns:DI0>
+            <tns:DI0 Tag0="202">CA</tns:DI0>
+            <tns:DI0 Tag0="203">CB</tns:DI0>
+            <tns:DI0 Tag0="204">CC</tns:DI0>
+            <tns:DI0 Tag0="205">CD</tns:DI0>
+            <tns:DI0 Tag0="206">CE</tns:DI0>
+            <tns:DI0 Tag0="207">CF</tns:DI0>
+            <tns:DI0 Tag0="208">D0</tns:DI0>
+            <tns:DI0 Tag0="209">D1</tns:DI0>
+            <tns:DI0 Tag0="210">D2</tns:DI0>
+            <tns:DI0 Tag0="211">D3</tns:DI0>
+            <tns:DI0 Tag0="212">D4</tns:DI0>
+            <tns:DI0 Tag0="213">D5</tns:DI0>
+            <tns:DI0 Tag0="214">D6</tns:DI0>
+            <tns:DI0 Tag0="215">D7</tns:DI0>
+            <tns:DI0 Tag0="216">D8</tns:DI0>
+            <tns:DI0 Tag0="217">D9</tns:DI0>
+            <tns:DI0 Tag0="218">DA</tns:DI0>
+            <tns:DI0 Tag0="219">DB</tns:DI0>
+            <tns:DI0 Tag0="220">DC</tns:DI0>
+            <tns:DI0 Tag0="221">DD</tns:DI0>
+            <tns:DI0 Tag0="222">DE</tns:DI0>
+            <tns:DI0 Tag0="223">DF</tns:DI0>
+            <tns:DI0 Tag0="224">E0</tns:DI0>
+            <tns:DI0 Tag0="225">E1</tns:DI0>
+            <tns:DI0 Tag0="226">E2</tns:DI0>
+            <tns:DI0 Tag0="227">E3</tns:DI0>
+            <tns:DI0 Tag0="228">E4</tns:DI0>
+            <tns:DI0 Tag0="229">E5</tns:DI0>
+            <tns:DI0 Tag0="230">E6</tns:DI0>
+            <tns:DI0 Tag0="231">E7</tns:DI0>
+            <tns:DI0 Tag0="232">E8</tns:DI0>
+            <tns:DI0 Tag0="233">E9</tns:DI0>
+            <tns:DI0 Tag0="234">EA</tns:DI0>
+            <tns:DI0 Tag0="235">EB</tns:DI0>
+            <tns:DI0 Tag0="236">EC</tns:DI0>
+            <tns:DI0 Tag0="237">ED</tns:DI0>
+            <tns:DI0 Tag0="238">EE</tns:DI0>
+            <tns:DI0 Tag0="239">EF</tns:DI0>
+            <tns:DI0 Tag0="240">F0</tns:DI0>
+            <tns:DI0 Tag0="241">F1</tns:DI0>
+            <tns:DI0 Tag0="242">F2</tns:DI0>
+            <tns:DI0 Tag0="243">F3</tns:DI0>
+            <tns:DI0 Tag0="244">F4</tns:DI0>
+            <tns:DI0 Tag0="245">F5</tns:DI0>
+            <tns:DI0 Tag0="246">F6</tns:DI0>
+            <tns:DI0 Tag0="247">F7</tns:DI0>
+            <tns:DI0 Tag0="248">F8</tns:DI0>
+            <tns:DI0 Tag0="249">F9</tns:DI0>
+            <tns:DI0 Tag0="250">FA</tns:DI0>
+            <tns:DI0 Tag0="251">FB</tns:DI0>
+            <tns:DI0 Tag0="252">FC</tns:DI0>
+            <tns:DI0 Tag0="253">FD</tns:DI0>
+            <tns:DI0 Tag0="254">FE</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>V</tns:unit>
+            <tns:dataFormat>YYMMDDNN</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>{DI1}循环显示第{DI0}屏显示数据项</tns:categoryName>
+         <tns:DI2>04</tns:DI2>
+         <tns:Tag2>{DI1}循环显示第{DI0}屏显示数据项</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="自动">01</tns:DI1>
+            <tns:DI1 Tag1="按键">02</tns:DI1>
+            <tns:DI0 Tag0="1">01</tns:DI0>
+            <tns:DI0 Tag0="2">02</tns:DI0>
+            <tns:DI0 Tag0="3">03</tns:DI0>
+            <tns:DI0 Tag0="4">04</tns:DI0>
+            <tns:DI0 Tag0="5">05</tns:DI0>
+            <tns:DI0 Tag0="6">06</tns:DI0>
+            <tns:DI0 Tag0="7">07</tns:DI0>
+            <tns:DI0 Tag0="8">08</tns:DI0>
+            <tns:DI0 Tag0="9">09</tns:DI0>
+            <tns:DI0 Tag0="10">0A</tns:DI0>
+            <tns:DI0 Tag0="11">0B</tns:DI0>
+            <tns:DI0 Tag0="12">0C</tns:DI0>
+            <tns:DI0 Tag0="13">0D</tns:DI0>
+            <tns:DI0 Tag0="14">0E</tns:DI0>
+            <tns:DI0 Tag0="15">0F</tns:DI0>
+            <tns:DI0 Tag0="16">10</tns:DI0>
+            <tns:DI0 Tag0="17">11</tns:DI0>
+            <tns:DI0 Tag0="18">12</tns:DI0>
+            <tns:DI0 Tag0="19">13</tns:DI0>
+            <tns:DI0 Tag0="20">14</tns:DI0>
+            <tns:DI0 Tag0="21">15</tns:DI0>
+            <tns:DI0 Tag0="22">16</tns:DI0>
+            <tns:DI0 Tag0="23">17</tns:DI0>
+            <tns:DI0 Tag0="24">18</tns:DI0>
+            <tns:DI0 Tag0="25">19</tns:DI0>
+            <tns:DI0 Tag0="26">1A</tns:DI0>
+            <tns:DI0 Tag0="27">1B</tns:DI0>
+            <tns:DI0 Tag0="28">1C</tns:DI0>
+            <tns:DI0 Tag0="29">1D</tns:DI0>
+            <tns:DI0 Tag0="30">1E</tns:DI0>
+            <tns:DI0 Tag0="31">1F</tns:DI0>
+            <tns:DI0 Tag0="32">20</tns:DI0>
+            <tns:DI0 Tag0="33">21</tns:DI0>
+            <tns:DI0 Tag0="34">22</tns:DI0>
+            <tns:DI0 Tag0="35">23</tns:DI0>
+            <tns:DI0 Tag0="36">24</tns:DI0>
+            <tns:DI0 Tag0="37">25</tns:DI0>
+            <tns:DI0 Tag0="38">26</tns:DI0>
+            <tns:DI0 Tag0="39">27</tns:DI0>
+            <tns:DI0 Tag0="40">28</tns:DI0>
+            <tns:DI0 Tag0="41">29</tns:DI0>
+            <tns:DI0 Tag0="42">2A</tns:DI0>
+            <tns:DI0 Tag0="43">2B</tns:DI0>
+            <tns:DI0 Tag0="44">2C</tns:DI0>
+            <tns:DI0 Tag0="45">2D</tns:DI0>
+            <tns:DI0 Tag0="46">2E</tns:DI0>
+            <tns:DI0 Tag0="47">2F</tns:DI0>
+            <tns:DI0 Tag0="48">30</tns:DI0>
+            <tns:DI0 Tag0="49">31</tns:DI0>
+            <tns:DI0 Tag0="50">32</tns:DI0>
+            <tns:DI0 Tag0="51">33</tns:DI0>
+            <tns:DI0 Tag0="52">34</tns:DI0>
+            <tns:DI0 Tag0="53">35</tns:DI0>
+            <tns:DI0 Tag0="54">36</tns:DI0>
+            <tns:DI0 Tag0="55">37</tns:DI0>
+            <tns:DI0 Tag0="56">38</tns:DI0>
+            <tns:DI0 Tag0="57">39</tns:DI0>
+            <tns:DI0 Tag0="58">3A</tns:DI0>
+            <tns:DI0 Tag0="59">3B</tns:DI0>
+            <tns:DI0 Tag0="60">3C</tns:DI0>
+            <tns:DI0 Tag0="61">3D</tns:DI0>
+            <tns:DI0 Tag0="62">3E</tns:DI0>
+            <tns:DI0 Tag0="63">3F</tns:DI0>
+            <tns:DI0 Tag0="64">40</tns:DI0>
+            <tns:DI0 Tag0="65">41</tns:DI0>
+            <tns:DI0 Tag0="66">42</tns:DI0>
+            <tns:DI0 Tag0="67">43</tns:DI0>
+            <tns:DI0 Tag0="68">44</tns:DI0>
+            <tns:DI0 Tag0="69">45</tns:DI0>
+            <tns:DI0 Tag0="70">46</tns:DI0>
+            <tns:DI0 Tag0="71">47</tns:DI0>
+            <tns:DI0 Tag0="72">48</tns:DI0>
+            <tns:DI0 Tag0="73">49</tns:DI0>
+            <tns:DI0 Tag0="74">4A</tns:DI0>
+            <tns:DI0 Tag0="75">4B</tns:DI0>
+            <tns:DI0 Tag0="76">4C</tns:DI0>
+            <tns:DI0 Tag0="77">4D</tns:DI0>
+            <tns:DI0 Tag0="78">4E</tns:DI0>
+            <tns:DI0 Tag0="79">4F</tns:DI0>
+            <tns:DI0 Tag0="80">50</tns:DI0>
+            <tns:DI0 Tag0="81">51</tns:DI0>
+            <tns:DI0 Tag0="82">52</tns:DI0>
+            <tns:DI0 Tag0="83">53</tns:DI0>
+            <tns:DI0 Tag0="84">54</tns:DI0>
+            <tns:DI0 Tag0="85">55</tns:DI0>
+            <tns:DI0 Tag0="86">56</tns:DI0>
+            <tns:DI0 Tag0="87">57</tns:DI0>
+            <tns:DI0 Tag0="88">58</tns:DI0>
+            <tns:DI0 Tag0="89">59</tns:DI0>
+            <tns:DI0 Tag0="90">5A</tns:DI0>
+            <tns:DI0 Tag0="91">5B</tns:DI0>
+            <tns:DI0 Tag0="92">5C</tns:DI0>
+            <tns:DI0 Tag0="93">5D</tns:DI0>
+            <tns:DI0 Tag0="94">5E</tns:DI0>
+            <tns:DI0 Tag0="95">5F</tns:DI0>
+            <tns:DI0 Tag0="96">60</tns:DI0>
+            <tns:DI0 Tag0="97">61</tns:DI0>
+            <tns:DI0 Tag0="98">62</tns:DI0>
+            <tns:DI0 Tag0="99">63</tns:DI0>
+            <tns:DI0 Tag0="100">64</tns:DI0>
+            <tns:DI0 Tag0="101">65</tns:DI0>
+            <tns:DI0 Tag0="102">66</tns:DI0>
+            <tns:DI0 Tag0="103">67</tns:DI0>
+            <tns:DI0 Tag0="104">68</tns:DI0>
+            <tns:DI0 Tag0="105">69</tns:DI0>
+            <tns:DI0 Tag0="106">6A</tns:DI0>
+            <tns:DI0 Tag0="107">6B</tns:DI0>
+            <tns:DI0 Tag0="108">6C</tns:DI0>
+            <tns:DI0 Tag0="109">6D</tns:DI0>
+            <tns:DI0 Tag0="110">6E</tns:DI0>
+            <tns:DI0 Tag0="111">6F</tns:DI0>
+            <tns:DI0 Tag0="112">70</tns:DI0>
+            <tns:DI0 Tag0="113">71</tns:DI0>
+            <tns:DI0 Tag0="114">72</tns:DI0>
+            <tns:DI0 Tag0="115">73</tns:DI0>
+            <tns:DI0 Tag0="116">74</tns:DI0>
+            <tns:DI0 Tag0="117">75</tns:DI0>
+            <tns:DI0 Tag0="118">76</tns:DI0>
+            <tns:DI0 Tag0="119">77</tns:DI0>
+            <tns:DI0 Tag0="120">78</tns:DI0>
+            <tns:DI0 Tag0="121">79</tns:DI0>
+            <tns:DI0 Tag0="122">7A</tns:DI0>
+            <tns:DI0 Tag0="123">7B</tns:DI0>
+            <tns:DI0 Tag0="124">7C</tns:DI0>
+            <tns:DI0 Tag0="125">7D</tns:DI0>
+            <tns:DI0 Tag0="126">7E</tns:DI0>
+            <tns:DI0 Tag0="127">7F</tns:DI0>
+            <tns:DI0 Tag0="128">80</tns:DI0>
+            <tns:DI0 Tag0="129">81</tns:DI0>
+            <tns:DI0 Tag0="130">82</tns:DI0>
+            <tns:DI0 Tag0="131">83</tns:DI0>
+            <tns:DI0 Tag0="132">84</tns:DI0>
+            <tns:DI0 Tag0="133">85</tns:DI0>
+            <tns:DI0 Tag0="134">86</tns:DI0>
+            <tns:DI0 Tag0="135">87</tns:DI0>
+            <tns:DI0 Tag0="136">88</tns:DI0>
+            <tns:DI0 Tag0="137">89</tns:DI0>
+            <tns:DI0 Tag0="138">8A</tns:DI0>
+            <tns:DI0 Tag0="139">8B</tns:DI0>
+            <tns:DI0 Tag0="140">8C</tns:DI0>
+            <tns:DI0 Tag0="141">8D</tns:DI0>
+            <tns:DI0 Tag0="142">8E</tns:DI0>
+            <tns:DI0 Tag0="143">8F</tns:DI0>
+            <tns:DI0 Tag0="144">90</tns:DI0>
+            <tns:DI0 Tag0="145">91</tns:DI0>
+            <tns:DI0 Tag0="146">92</tns:DI0>
+            <tns:DI0 Tag0="147">93</tns:DI0>
+            <tns:DI0 Tag0="148">94</tns:DI0>
+            <tns:DI0 Tag0="149">95</tns:DI0>
+            <tns:DI0 Tag0="150">96</tns:DI0>
+            <tns:DI0 Tag0="151">97</tns:DI0>
+            <tns:DI0 Tag0="152">98</tns:DI0>
+            <tns:DI0 Tag0="153">99</tns:DI0>
+            <tns:DI0 Tag0="154">9A</tns:DI0>
+            <tns:DI0 Tag0="155">9B</tns:DI0>
+            <tns:DI0 Tag0="156">9C</tns:DI0>
+            <tns:DI0 Tag0="157">9D</tns:DI0>
+            <tns:DI0 Tag0="158">9E</tns:DI0>
+            <tns:DI0 Tag0="159">9F</tns:DI0>
+            <tns:DI0 Tag0="160">A0</tns:DI0>
+            <tns:DI0 Tag0="161">A1</tns:DI0>
+            <tns:DI0 Tag0="162">A2</tns:DI0>
+            <tns:DI0 Tag0="163">A3</tns:DI0>
+            <tns:DI0 Tag0="164">A4</tns:DI0>
+            <tns:DI0 Tag0="165">A5</tns:DI0>
+            <tns:DI0 Tag0="166">A6</tns:DI0>
+            <tns:DI0 Tag0="167">A7</tns:DI0>
+            <tns:DI0 Tag0="168">A8</tns:DI0>
+            <tns:DI0 Tag0="169">A9</tns:DI0>
+            <tns:DI0 Tag0="170">AA</tns:DI0>
+            <tns:DI0 Tag0="171">AB</tns:DI0>
+            <tns:DI0 Tag0="172">AC</tns:DI0>
+            <tns:DI0 Tag0="173">AD</tns:DI0>
+            <tns:DI0 Tag0="174">AE</tns:DI0>
+            <tns:DI0 Tag0="175">AF</tns:DI0>
+            <tns:DI0 Tag0="176">B0</tns:DI0>
+            <tns:DI0 Tag0="177">B1</tns:DI0>
+            <tns:DI0 Tag0="178">B2</tns:DI0>
+            <tns:DI0 Tag0="179">B3</tns:DI0>
+            <tns:DI0 Tag0="180">B4</tns:DI0>
+            <tns:DI0 Tag0="181">B5</tns:DI0>
+            <tns:DI0 Tag0="182">B6</tns:DI0>
+            <tns:DI0 Tag0="183">B7</tns:DI0>
+            <tns:DI0 Tag0="184">B8</tns:DI0>
+            <tns:DI0 Tag0="185">B9</tns:DI0>
+            <tns:DI0 Tag0="186">BA</tns:DI0>
+            <tns:DI0 Tag0="187">BB</tns:DI0>
+            <tns:DI0 Tag0="188">BC</tns:DI0>
+            <tns:DI0 Tag0="189">BD</tns:DI0>
+            <tns:DI0 Tag0="190">BE</tns:DI0>
+            <tns:DI0 Tag0="191">BF</tns:DI0>
+            <tns:DI0 Tag0="192">C0</tns:DI0>
+            <tns:DI0 Tag0="193">C1</tns:DI0>
+            <tns:DI0 Tag0="194">C2</tns:DI0>
+            <tns:DI0 Tag0="195">C3</tns:DI0>
+            <tns:DI0 Tag0="196">C4</tns:DI0>
+            <tns:DI0 Tag0="197">C5</tns:DI0>
+            <tns:DI0 Tag0="198">C6</tns:DI0>
+            <tns:DI0 Tag0="199">C7</tns:DI0>
+            <tns:DI0 Tag0="200">C8</tns:DI0>
+            <tns:DI0 Tag0="201">C9</tns:DI0>
+            <tns:DI0 Tag0="202">CA</tns:DI0>
+            <tns:DI0 Tag0="203">CB</tns:DI0>
+            <tns:DI0 Tag0="204">CC</tns:DI0>
+            <tns:DI0 Tag0="205">CD</tns:DI0>
+            <tns:DI0 Tag0="206">CE</tns:DI0>
+            <tns:DI0 Tag0="207">CF</tns:DI0>
+            <tns:DI0 Tag0="208">D0</tns:DI0>
+            <tns:DI0 Tag0="209">D1</tns:DI0>
+            <tns:DI0 Tag0="210">D2</tns:DI0>
+            <tns:DI0 Tag0="211">D3</tns:DI0>
+            <tns:DI0 Tag0="212">D4</tns:DI0>
+            <tns:DI0 Tag0="213">D5</tns:DI0>
+            <tns:DI0 Tag0="214">D6</tns:DI0>
+            <tns:DI0 Tag0="215">D7</tns:DI0>
+            <tns:DI0 Tag0="216">D8</tns:DI0>
+            <tns:DI0 Tag0="217">D9</tns:DI0>
+            <tns:DI0 Tag0="218">DA</tns:DI0>
+            <tns:DI0 Tag0="219">DB</tns:DI0>
+            <tns:DI0 Tag0="220">DC</tns:DI0>
+            <tns:DI0 Tag0="221">DD</tns:DI0>
+            <tns:DI0 Tag0="222">DE</tns:DI0>
+            <tns:DI0 Tag0="223">DF</tns:DI0>
+            <tns:DI0 Tag0="224">E0</tns:DI0>
+            <tns:DI0 Tag0="225">E1</tns:DI0>
+            <tns:DI0 Tag0="226">E2</tns:DI0>
+            <tns:DI0 Tag0="227">E3</tns:DI0>
+            <tns:DI0 Tag0="228">E4</tns:DI0>
+            <tns:DI0 Tag0="229">E5</tns:DI0>
+            <tns:DI0 Tag0="230">E6</tns:DI0>
+            <tns:DI0 Tag0="231">E7</tns:DI0>
+            <tns:DI0 Tag0="232">E8</tns:DI0>
+            <tns:DI0 Tag0="233">E9</tns:DI0>
+            <tns:DI0 Tag0="234">EA</tns:DI0>
+            <tns:DI0 Tag0="235">EB</tns:DI0>
+            <tns:DI0 Tag0="236">EC</tns:DI0>
+            <tns:DI0 Tag0="237">ED</tns:DI0>
+            <tns:DI0 Tag0="238">EE</tns:DI0>
+            <tns:DI0 Tag0="239">EF</tns:DI0>
+            <tns:DI0 Tag0="240">F0</tns:DI0>
+            <tns:DI0 Tag0="241">F1</tns:DI0>
+            <tns:DI0 Tag0="242">F2</tns:DI0>
+            <tns:DI0 Tag0="243">F3</tns:DI0>
+            <tns:DI0 Tag0="244">F4</tns:DI0>
+            <tns:DI0 Tag0="245">F5</tns:DI0>
+            <tns:DI0 Tag0="246">F6</tns:DI0>
+            <tns:DI0 Tag0="247">F7</tns:DI0>
+            <tns:DI0 Tag0="248">F8</tns:DI0>
+            <tns:DI0 Tag0="249">F9</tns:DI0>
+            <tns:DI0 Tag0="250">FA</tns:DI0>
+            <tns:DI0 Tag0="251">FB</tns:DI0>
+            <tns:DI0 Tag0="252">FC</tns:DI0>
+            <tns:DI0 Tag0="253">FD</tns:DI0>
+            <tns:DI0 Tag0="254">FE</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>V</tns:unit>
+            <tns:dataFormat>NNNNNNNN</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+      <tns:category>
+         <tns:categoryName>第{DI1}套费率{DI0}</tns:categoryName>
+         <tns:DI2>05</tns:DI2>
+         <tns:Tag2>第{DI1}套费率{DI0}</tns:Tag2>
+         <tns:finalTag>DI2</tns:finalTag>
+         <tns:function>
+            <tns:DI1 Tag1="一">01</tns:DI1>
+            <tns:DI1 Tag1="二">02</tns:DI1>
+            <tns:DI0 Tag0="1">01</tns:DI0>
+            <tns:DI0 Tag0="2">02</tns:DI0>
+            <tns:DI0 Tag0="3">03</tns:DI0>
+            <tns:DI0 Tag0="4">04</tns:DI0>
+            <tns:DI0 Tag0="5">05</tns:DI0>
+            <tns:DI0 Tag0="6">06</tns:DI0>
+            <tns:DI0 Tag0="7">07</tns:DI0>
+            <tns:DI0 Tag0="8">08</tns:DI0>
+            <tns:DI0 Tag0="9">09</tns:DI0>
+            <tns:DI0 Tag0="10">0A</tns:DI0>
+            <tns:DI0 Tag0="11">0B</tns:DI0>
+            <tns:DI0 Tag0="12">0C</tns:DI0>
+            <tns:DI0 Tag0="13">0D</tns:DI0>
+            <tns:DI0 Tag0="14">0E</tns:DI0>
+            <tns:DI0 Tag0="15">0F</tns:DI0>
+            <tns:DI0 Tag0="16">10</tns:DI0>
+            <tns:DI0 Tag0="17">11</tns:DI0>
+            <tns:DI0 Tag0="18">12</tns:DI0>
+            <tns:DI0 Tag0="19">13</tns:DI0>
+            <tns:DI0 Tag0="20">14</tns:DI0>
+            <tns:DI0 Tag0="21">15</tns:DI0>
+            <tns:DI0 Tag0="22">16</tns:DI0>
+            <tns:DI0 Tag0="23">17</tns:DI0>
+            <tns:DI0 Tag0="24">18</tns:DI0>
+            <tns:DI0 Tag0="25">19</tns:DI0>
+            <tns:DI0 Tag0="26">1A</tns:DI0>
+            <tns:DI0 Tag0="27">1B</tns:DI0>
+            <tns:DI0 Tag0="28">1C</tns:DI0>
+            <tns:DI0 Tag0="29">1D</tns:DI0>
+            <tns:DI0 Tag0="30">1E</tns:DI0>
+            <tns:DI0 Tag0="31">1F</tns:DI0>
+            <tns:DI0 Tag0="32">20</tns:DI0>
+            <tns:DI0 Tag0="33">21</tns:DI0>
+            <tns:DI0 Tag0="34">22</tns:DI0>
+            <tns:DI0 Tag0="35">23</tns:DI0>
+            <tns:DI0 Tag0="36">24</tns:DI0>
+            <tns:DI0 Tag0="37">25</tns:DI0>
+            <tns:DI0 Tag0="38">26</tns:DI0>
+            <tns:DI0 Tag0="39">27</tns:DI0>
+            <tns:DI0 Tag0="40">28</tns:DI0>
+            <tns:DI0 Tag0="41">29</tns:DI0>
+            <tns:DI0 Tag0="42">2A</tns:DI0>
+            <tns:DI0 Tag0="43">2B</tns:DI0>
+            <tns:DI0 Tag0="44">2C</tns:DI0>
+            <tns:DI0 Tag0="45">2D</tns:DI0>
+            <tns:DI0 Tag0="46">2E</tns:DI0>
+            <tns:DI0 Tag0="47">2F</tns:DI0>
+            <tns:DI0 Tag0="48">30</tns:DI0>
+            <tns:DI0 Tag0="49">31</tns:DI0>
+            <tns:DI0 Tag0="50">32</tns:DI0>
+            <tns:DI0 Tag0="51">33</tns:DI0>
+            <tns:DI0 Tag0="52">34</tns:DI0>
+            <tns:DI0 Tag0="53">35</tns:DI0>
+            <tns:DI0 Tag0="54">36</tns:DI0>
+            <tns:DI0 Tag0="55">37</tns:DI0>
+            <tns:DI0 Tag0="56">38</tns:DI0>
+            <tns:DI0 Tag0="57">39</tns:DI0>
+            <tns:DI0 Tag0="58">3A</tns:DI0>
+            <tns:DI0 Tag0="59">3B</tns:DI0>
+            <tns:DI0 Tag0="60">3C</tns:DI0>
+            <tns:DI0 Tag0="61">3D</tns:DI0>
+            <tns:DI0 Tag0="62">3E</tns:DI0>
+            <tns:DI0 Tag0="63">3F</tns:DI0>
+            <tns:dataLength>04</tns:dataLength>
+            <tns:unit>元</tns:unit>
+            <tns:dataFormat>NNNN.NNNN</tns:dataFormat>
+         </tns:function>
+      </tns:category>
+   </tns:class>
+</tns:dataIdentity>
